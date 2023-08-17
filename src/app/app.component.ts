@@ -92,7 +92,9 @@ export class AppComponent implements OnInit {
       return true;
 
     }
-  
+  else if (this.loggedInUsername === 'admin') {
+      return true;
+    }  
     return false;
   }
 
