@@ -92,6 +92,9 @@ export class AppComponent implements OnInit {
       return true;
 
     }
+      else if(postedBy === 'admin'){
+      return true;
+    }
     return false;
   }
 
